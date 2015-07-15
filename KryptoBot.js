@@ -239,9 +239,9 @@
         status: false,
         name: "KryptoBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/xBacca/basicBot/master/basicBot.js",
+        scriptLink: "https://rawgit.com/xBacca/KryptoBot-main/master/KryptoBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/xBacca/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/xBacca/KryptoBot-main/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -249,7 +249,7 @@
         settings: {
             botName: "KryptoBot",
             language: "english",
-            chatLink: "https://rawgit.com/xBacca/basicBot/master/lang/en.json",
+            chatLink: "https://rawgit.com/xBacca/KryptoBot-main/master/lang/en.json",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 50, // 0-100
@@ -268,7 +268,7 @@
             maximumLocktime: 10,
             cycleGuard: true,
             maximumCycletime: 10,
-            voteSkip: false,
+            voteSkip: true,
             voteSkipLimit: 10,
             historySkip: false,
             timeGuard: true,
@@ -305,8 +305,8 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/xBacca/basicBot-customization/master/blacklists/NSFWlist.json",
-                OP: "https://rawgit.com/xBacca/basicBot-customization/master/blacklists/OPlist.json",
+                NSFW: "https://rawgit.com/xBacca/KryptoBot/master/blacklists/NSFWlist.json",
+                OP: "https://rawgit.com/xBacca/KryptoBot/master/blacklists/OPlist.json",
             }
         },
         room: {
