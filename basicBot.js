@@ -252,7 +252,7 @@
             chatLink: "https://rawgit.com/xBacca/basicBot/master/lang/en.json",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
+            startupVolume: 50, // 0-100
             startupEmoji: false, // true or false
             autowoot: true,
             autoskip: false,
@@ -303,7 +303,7 @@
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
-            commandLiteral: "/",
+            commandLiteral: "!",
             blacklists: {
                 NSFW: "https://rawgit.com/xBacca/basicBot-customization/master/blacklists/NSFWlist.json",
                 OP: "https://rawgit.com/xBacca/basicBot-customization/master/blacklists/OPlist.json",
