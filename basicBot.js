@@ -231,18 +231,17 @@
         return str;
     };
 
-    var botCreator = "Matthew (Yemasthui)";
-    var botMaintainer = "Benzi (Quoona)"
-    var botCreatorIDs = ["3851534", "4105209"];
+    var botCreator = "xBacca";
+    var botCreatorIDs = [];
 
     var basicBot = {
-        version: "2.8.9",
+        version: "2.8",
         status: false,
         name: "KryptoBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/xBacca/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/xBacca/basicBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -250,7 +249,7 @@
         settings: {
             botName: "KryptoBot",
             language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+            chatLink: "https://rawgit.com/xBacca/basicBot/master/lang/en.json",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -295,20 +294,19 @@
             filterChat: true,
             etaRestriction: false,
             welcome: true,
-            opLink: null,
-            rulesLink: null,
+            opLink: "https://github.com/xBacca/Plug-OP-list/blob/master/List",
+            rulesLink: "Coming soon!, for now just go to rules in the Community.",
             themeLink: null,
             fbLink: null,
-            youtubeLink: "http://www.youtube.com/user/KryptoTube",
+            youtubeLink: "https://www.youtube.com/user/KryptoTube",
             website: "http://www.KryptoSG.enjin.com",
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
             commandLiteral: "/",
             blacklists: {
-                NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/NSFWlist.json",
-                OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/OPlist.json",
-                BANNED: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/BANNEDlist.json"
+                NSFW: "https://rawgit.com/xBacca/basicBot-customization/master/blacklists/NSFWlist.json",
+                OP: "https://rawgit.com/xBacca/basicBot-customization/master/blacklists/OPlist.json",
             }
         },
         room: {
