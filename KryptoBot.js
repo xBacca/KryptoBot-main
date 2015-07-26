@@ -247,7 +247,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "KryptoBot",
+            botName: "HulixBot",
             language: "english",
             chatLink: "https://rawgit.com/xBacca/KryptoBot-main/master/lang/en.json",
             roomLock: false, // Requires an extension to re-load the script
@@ -290,7 +290,7 @@
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Welcome to KryptoSG's Plug.dj!",
+            motd: "Welcome to HulixMC's Plug.dj!",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
